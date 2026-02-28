@@ -16,9 +16,9 @@ description: |
 developer: fishhot75012
 website: https://github.com/fishhot75012
 submitter: fishhot75012
-submission: https://github.com/fishhot75012/bitcoinsilver
-repo: https://github.com/fishhot75012/bitcoinsilver
-support: https://github.com/fishhot75012/bitcoinsilver
+submission: https://github.com/fishhot75012/fishhot75012-btcs-node
+repo: https://github.com/fishhot75012/fishhot75012-btcs-node
+support: https://github.com/fishhot75012/fishhot75012-btcs-node
 gallery:
   - https://github.com/fishhot75012/umbrel-community-app-store/blob/master/fishhot75012-btcs-node/btcs_logo.png
 releaseNotes: >-
@@ -28,3 +28,4 @@ path: ""
 defaultUsername: ""
 
 defaultPassword: ""
+
