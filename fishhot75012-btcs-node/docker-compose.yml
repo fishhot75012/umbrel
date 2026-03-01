@@ -7,7 +7,7 @@ services:
       APP_HOST: fishhot75012-btcs-node_web_1
       APP_PORT: 8080
   web:
-    image: amir20/dozzle:v8.12.8@sha256:8ff3115c9c9dd7576839df6f2575de345ca7cafa398cf2496f1f19c31d862ac1
+    image: zithiat/bitcoinsilver-node@sha256:69219f4432925ef53e29064ba4c7b4be0e564d5b584be7f91b28389b61c68f22
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock:ro
     restart: on-failure
@@ -18,10 +18,11 @@ services:
     restart: on-failure
     stop_grace_period: 1m
     volumes:
-      - ${APP_DATA_DIR}/.bitcoinsilver:/root/.bitcoin
+      - ${APP_DATA_DIR}/.bitcoinsilver:/root/.bitcoins
     ports:
       - 9008:9008    # RPC
       - 7008:7008    # ZMQ
       - 8334:8334    # P2P
 
     entrypoint: "bitcoind -printtoconsole -server -prune=550 -wallet=default -zmqpubhashblock=tcp://127.0.0.1:7008 -rpcbind=0.0.0.0 -rpcport=9008 -rpcallowip=0.0.0.0/0 -port=8334 -rpcuser=pooluser -rpcpassword=poolpassword"
+
