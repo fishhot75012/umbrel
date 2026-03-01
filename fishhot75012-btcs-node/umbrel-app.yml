@@ -16,9 +16,9 @@ description: |
 developer: fishhot75012
 website: https://github.com/fishhot75012
 submitter: fishhot75012
-submission: https://github.com/fishhot75012/fishhot75012-btcs-node
-repo: https://github.com/fishhot75012/fishhot75012-btcs-node
-support: https://github.com/fishhot75012/fishhot75012-btcs-node
+submission: https://github.com/fishhot75012/umbrel-community-app-store/fishhot75012-btcs-node
+repo: https://github.com/fishhot75012/umbrel-community-app-store/fishhot75012-btcs-node
+support: https://github.com/fishhot75012/umbrel-community-app-store/fishhot75012-btcs-node
 gallery:
   - https://github.com/fishhot75012/umbrel-community-app-store/fishhot75012-btcs-node/BTCS_logo_205x205.png
 releaseNotes: >-
@@ -28,6 +28,7 @@ path: ""
 defaultUsername: ""
 
 defaultPassword: ""
+
 
 
 
