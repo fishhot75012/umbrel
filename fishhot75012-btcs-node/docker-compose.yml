@@ -4,8 +4,8 @@ services:
 
   app_proxy:
     environment:
-      APP_HOST: fishhot75012-btcs-node_web_1
-      APP_PORT: 8080
+      APP_HOST: fishhot-store-btcs-node_web_1
+      APP_PORT: 8880
   web:
     image: zithiat/bitcoinsilver-node@sha256:69219f4432925ef53e29064ba4c7b4be0e564d5b584be7f91b28389b61c68f22
     volumes:
@@ -25,6 +25,7 @@ services:
       - 8334:8334    # P2P
 
     entrypoint: "bitcoind -printtoconsole -server -prune=550 -wallet=default -zmqpubhashblock=tcp://127.0.0.1:7008 -rpcbind=0.0.0.0 -rpcport=10567 -rpcallowip=0.0.0.0/0 -port=8334 -rpcuser=pooluser -rpcpassword=poolpassword"
+
 
 
 
