@@ -1,5 +1,5 @@
 manifestVersion: 1
-id: fishhot75012-btcs-node
+id: btcs-node
 name: Bitcoin Silver (BTCS) Node
 tagline: Bitcoin Silver Node. This is a general node app for Bitcoin Silver and can be used to in conjunction with mining pool software to solo mine, or just be ran standalone to help contribute to the Bitcoin Cash network.
 icon: https://bitcoincash.org/img/green/bitcoin-cash-circle.svg
@@ -26,4 +26,5 @@ releaseNotes: >-
 dependencies: []
 path: ""
 defaultUsername: ""
+
 defaultPassword: ""
