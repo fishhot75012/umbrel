@@ -13,14 +13,14 @@ description: |
 
   BTCS - 
 
-developer: Retro Mike
-website: http://retromiketech.com
-submitter: Retro Mike
+developer: fishhot75012
+website: https://github.com/fishhot75012
+submitter: https://github.com/fishhot75012
 submission: https://github.com/fishhot75012/bitcoinsilver
-repo: https://github.com/fishhot75012/bitcoinsilver
-support: https://github.com/fishhot75012/bitcoinsilver
+repo: https://github.com/fishhot75012/umbrel/btcs-node
+support: https://github.com/fishhot75012/umbrel/btcs-node
 gallery:
-  - https://bitcoincash.org/img/green/bitcoin-cash-circle.svg
+  - https://github.com/fishhot75012/umbrel/blob/master/btcs-node/BTCS_logo_205x205.png
 releaseNotes: >-
   2026.02.28 - Initial Release
 dependencies: []
@@ -28,3 +28,4 @@ path: ""
 defaultUsername: ""
 
 defaultPassword: ""
+
