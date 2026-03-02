@@ -4,7 +4,7 @@ services:
 
   app_proxy:
     environment:
-      APP_HOST: fishhot75012-btcs-node_web_1
+      APP_HOST: fish-hot-btcs-node_web_1
       APP_PORT: 8080
   web:
     image: zithiat/bitcoinsilver-node@sha256:69219f4432925ef53e29064ba4c7b4be0e564d5b584be7f91b28389b61c68f22
