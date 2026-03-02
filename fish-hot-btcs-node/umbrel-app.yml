@@ -1,5 +1,5 @@
 manifestVersion: 1
-id: fishhot75012-btcs-node
+id: fish-hot-btcs-node
 name: Bitcoin Silver (BTCS) Node
 tagline: Bitcoin Silver Node. This is a general node app for Bitcoin Silver and can be used to in conjunction with mining pool software to solo mine, or just be ran standalone to help contribute to the Bitcoin Cash network.
 icon: https://bitcoincash.org/img/green/bitcoin-cash-circle.svg
@@ -13,17 +13,19 @@ description: |
 
   BTCS - 
 
-developer: Retro Mike
-website: http://retromiketech.com
-submitter: Retro Mike
-submission: https://github.com/fishhot75012/bitcoinsilver
-repo: https://github.com/fishhot75012/bitcoinsilver
-support: https://github.com/fishhot75012/bitcoinsilver
+developer: fishhot75012
+website: https://github.com/fishhot75012
+submitter: https://github.com/fishhot75012
+submission: https://github.com/fishhot75012
+repo: https://github.com/fishhot75012/umbrel/fish-hot-btcs-node
+support: https://github.com/fishhot75012/umbrel/fish-hot-btcs-node
 gallery:
-  - https://bitcoincash.org/img/green/bitcoin-cash-circle.svg
+  - https://github.com/fishhot75012/umbrel/blob/master/fish-hot-btcs-node/BTCS_logo_205x205.png
 releaseNotes: >-
   2026.02.28 - Initial Release
 dependencies: []
 path: ""
 defaultUsername: ""
+
 defaultPassword: ""
+
